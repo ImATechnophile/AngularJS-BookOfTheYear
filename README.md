@@ -10,3 +10,10 @@ Note: This app covers the basic of binding(Event binding and property binding) i
 - Individual view
 
 ![appbooks2](https://user-images.githubusercontent.com/35361302/38086418-e193cc0c-3371-11e8-961e-8b95d0f955c6.PNG)
+
+## Authors
+
+* **Saravana Prakash** - *Initial work* - [Projects in python](https://bitbucket.org/dashboard/overview)
+* **Linkedin** - *Saravana Prakash* - [About myself](https://www.linkedin.com/in/saravana-prakash-j-116035124/)
+
+
