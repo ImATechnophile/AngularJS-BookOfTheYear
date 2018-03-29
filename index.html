@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Testing AngularJs in local web browser</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+ 	<link href="http://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:500,300,700,400' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body ng-app="myApp">
+
+    <div class="main" ng-controller="MainController">
+      <div class="container">
+
+        <h1>{{ title }}</h1>
+        <h2>{{ promo }}</h2>
+
+        <div ng-repeat="product in products" class="col-md-6">
+          <div class="thumbnail">
+            <img ng-src="{{product.cover}}">
+
+<!-- testing json
+ -->           <!--  <p> {{ product | json }} </p> -->
+
+
+            <p class="title"> {{ product.name | uppercase }} </p>
+            <p class="price"> {{ product.price | currency }} </p>
+            <p class="date"> {{ product.pubdate | date }} </p>
+            <div class="rating"> 
+              <p class="likes" ng-click="plusOne($index)">+{{product.likes}} </p>
+              <p class="dislikes" ng-click="minusOne($index)">-{{product.dislikes}} </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+<!-- Modules -->
+<script src="js/modules/app.js"></script>
+<!-- Controllers -->
+<script src="js/controllers/MainController.js"></script>
+
+</body>
+</html>
