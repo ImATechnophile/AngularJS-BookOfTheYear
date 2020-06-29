@@ -13,7 +13,7 @@ Note: This app covers the basic of binding(Event binding and property binding) i
 
 ## Authors
 
-* **Saravana Prakash** - *Initial work* - [Projects in python](https://bitbucket.org/ImATechnophile95/)
+* **Saravana Prakash** - *Initial work* - [Projects in python](https://bitbucket.org/ImATechnophile-Personal/)
 * **Linkedin** - *Saravana Prakash* - [About myself](https://www.linkedin.com/in/saravana-prakash-j-116035124/)
 
 
